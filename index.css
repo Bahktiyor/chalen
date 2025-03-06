@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+.pricing-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40vh;
+    gap: 30px;
+
+    .pricing-plan{
+        border: none;
+        border-radius: 5px;
+        width: 250px;
+        height: 180px;
+        background-color: azure;
+        .plan-title{
+            font-family: "Sixtyfour Convergence", sans-serif;
+            position: relative;
+            padding: 15px 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            flex-direction: column;
+        }
+
+        .plan-price{
+            font-family: "Sixtyfour Convergence", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } 
+
+        button{
+            
+            position: relative;
+            margin-top: 8px;
+            display: flex;
+            border-radius: 5px;
+            border: none;
+            height: 30px;
+            width: 70px;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: rgb(217, 120, 51);
+            left:100px;
+           
+
+        }
+ 
+
+    }
+}
+
+@media (max-width: 600px){
+   
+    .pricing-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+        
+}
